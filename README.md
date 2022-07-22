@@ -11,7 +11,7 @@ To achieve the objective of this project, deep learning approach using TensorFlo
 ## Accuracy
 After cleaning and training the data, this model can achive up to 90% accuracy. 
 
-![Plotted Accuracy](/Image/Plotted Accuracy.PNG)
+![Plotted Accuracy](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Plotted%20Accuracy.PNG)
 
 
 ## Running the Project
