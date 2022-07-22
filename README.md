@@ -11,7 +11,7 @@ To achieve the objective of this project, deep learning approach using TensorFlo
 ## Accuracy
 After cleaning and training the data, this model can achive up to 90% accuracy. 
 
-![Plotted Accuracy](C:\Users\USER\Desktop\UploadGitFile\Assignment 2\Image\Plotted Accuracy)
+![Plotted Accuracy](/Image/Plotted Accuracy.PNG)
 
 
 ## Running the Project
