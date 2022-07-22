@@ -5,23 +5,30 @@ This project is based on the marketing campaign conducted by a bank to promote t
 
 The objective of this project is to predict customer subcription of the marketed product in order to determine effectiveness of the campaign. Data collected contains details that could determine the possibily of the customer to subscribe to their product as well as to improve marketing strategy.
 
+## Running the Project
+This model run using Python programming and the libraries available.
+
 ## Project Insight
-To achieve the objective of this project, deep learning approach using TensorFlow consedering the amount of dataset available. The deep learning model consist of Input, Dense, Dropout, and Batch Normalization layers. Training loss and accuracy are also displayed using TensorBoard. The targeted accuracy for this model is 70% and more.
+To achieve the objective of this project, deep learning approach using TensorFlow consedering the amount of dataset available. The deep learning model consist of Input, Dense, Dropout, and Batch Normalization layers with 128 epochs and patience of 10. Training loss and accuracy are also displayed using TensorBoard. The targeted accuracy for this model is 70% and more.
 
 ## Accuracy
-After cleaning and training the data, this model can achive up to 90% accuracy. 
+After cleaning, selecting the best features and training the data, this model can achive up to 70% accuracy. 
+Below are some of the result given by the model after training. However, result might slightly different when run multiple times.
 
+###### Image shows the training classification report.
+![Classification report](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Classification_report.PNG)
+
+###### Graph shows the training and validation of the accuracy 
 ![Plotted Accuracy](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Plotted%20Accuracy.PNG)
 
+###### Training and validation of the accuracy shows on TensorBoard 
+![Training Accuracy](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Accuracy.PNG)
 
-## Running the Project
-This project is 
+###### Graph shows the training loss and validation loss of the model
+![Plotted Loss](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Plotted_loss.PNG)
 
-## How to Use the Project
-
-
-
-
+###### Training and validation of the loss shows on TensorBoard 
+![Training Loss](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Loss.PNG)
 
 ## Build With
  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
@@ -35,3 +42,4 @@ This project is
  ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ## Credit
+The dataset can be downloaded from Kaggle dataset at https://www.kaggle.com/datasets/kunalgupta2616/hackerearth-customer-segmentation-hackathon
